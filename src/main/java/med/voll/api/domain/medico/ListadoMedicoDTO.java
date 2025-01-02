@@ -1,6 +1,4 @@
-package med.voll.api.dto;
-
-import med.voll.api.model.Medico;
+package med.voll.api.domain.medico;
 
 public record ListadoMedicoDTO(
         Long id,

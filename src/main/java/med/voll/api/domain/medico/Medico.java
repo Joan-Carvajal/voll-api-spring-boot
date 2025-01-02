@@ -1,17 +1,14 @@
-package med.voll.api.model;
+package med.voll.api.domain.medico;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import med.voll.api.dto.ActualizarMedicosDTO;
-import med.voll.api.dto.Especialidad;
-import med.voll.api.dto.RegistroMedicoDTO;
+import lombok.*;
+import med.voll.api.domain.direccion.Direccion;
+
 
 @Table(name = "medicos")
 @Entity(name = "Medico")
 @Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(of = "id")
